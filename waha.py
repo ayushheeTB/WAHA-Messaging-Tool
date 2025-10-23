@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BASE_URL = "http://localhost:3000/api/sendText"
-SESSION = "true_b"
+SESSION = os.getenv("WAHA_SESSION")
 
 
 numbers = ["91234567890"]
